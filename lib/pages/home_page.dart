@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var feedService = Provider.of<FeedService>(context, listen: false);
+    var feedService = Provider.of<FeedService>(context, listen: true);
     return Container(
         decoration: const BoxDecoration(
           gradient: LinearGradient(
